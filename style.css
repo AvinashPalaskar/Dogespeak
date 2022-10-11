@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tiro+Devanagari+Hindi&display=swap');
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  color: #155e75;
+  background-color:  #cffafe;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+#text-area {
+  font-size: 1.1rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  width: 60%;
+  height: 20vh;
+  outline: none;
+  border: 1.5px solid #155e75;
+  border-radius: 1rem;
+  background-color: wheat;
+  color: white;
+}
+.logo {
+  width: 80%;
+  margin: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #7c3aed;
+}
+.mid-section {
+  width: 60vw;
+}
+button {
+  background-color: #7c3aed;;
+  color: #fffbeb;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin: 0.7rem 0rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+h2 {
+  margin-bottom: 0.7rem;
+}
+.output {
+  background-color: wheat;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 60%;
+  border: 1px solid white;
+  height: 20vh;
+}
+footer {
+  border-top: 3px solid #155e75;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 1rem;
+}
+footer h3 {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+footer p {
+  width: 70%;
+  text-align: justify;
+}
